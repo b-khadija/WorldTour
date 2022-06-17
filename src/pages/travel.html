@@ -3,10 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../scss/reset.scss">
   <link rel="stylesheet" href="../scss/travel.scss">
-  <title>Document</title>
+  <title>Voyage autour du monde</title>
+  <!-- link for Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="../travel.js" defer></script>
 </head>
 <body>
-  <script src="../index.js"></script>
+  <header class="header" role="banner"> 
+    <div id="burger-menu">
+      <span></span>
+    </div>
+    <div class="logo-container">
+      <img class="logo" src="../images/travel/logo.png" alt="Logo voyage autour du monde">
+      <h1><a href="#" class="logo-name">World Tour</a></h1>
+    </div>
+    <nav role="navigation" id="menu">
+        <ul class="menu-list">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#destination">Destinations</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+        </ul>
+    </nav>
+  </header>
 </body>
 </html>
