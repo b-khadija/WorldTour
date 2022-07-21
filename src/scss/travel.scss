@@ -18,7 +18,7 @@ html {
 
 body {
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 0 auto;
   padding: 0;
   font-size: 16px;
@@ -46,12 +46,12 @@ header {
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
-    cursor: pointer;
   }
 
   .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
   }
 
@@ -99,10 +99,10 @@ main {
   justify-content: center;
   background: var(--brand-mineral-green);
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   font-size: 18px;
 
-  section {
+  .home {
     padding: 100px 200px;
   }
 
@@ -121,7 +121,7 @@ main {
     p {
       font-size: 25px;
       margin-bottom: 80px;
-      line-height: 1.6;
+      line-height: 1.2;
     }
   }
 
@@ -201,7 +201,7 @@ main {
       border-radius: 50%;
       cursor: pointer;
       box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
-      transition: 00.1s ease;
+      transition: 0.1s ease-out;
 
       &.active {
         background: var(--brand-tuscany);
@@ -262,8 +262,8 @@ main {
 
     .navigation-items {
       background: #fff;
-      width: 600px;
-      max-width: 600px;
+      width: 390px;
+      max-width: 500px;
       margin: 20px;
       padding: 40px;
       display: flex;
@@ -272,7 +272,7 @@ main {
       border-radius: 5px;
       box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
 
-      li {
+      .navigation_element {
         margin-top: 50px;
 
         .link {
@@ -314,6 +314,8 @@ main {
   }
 
   main {
+    width: 100%;
+    height: 100vh;
     
     .content {
       
@@ -327,14 +329,72 @@ main {
       }
     }
 
-    section {
+    .home {
       padding: 100px 20px;
     }
 
     .media-icons {
       right: 30px;
-      top: 353px;
+      top: 553px;
     }
   }
 
+  .second-title {
+    color: var(--brand-cararra);
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 150px;
+    padding: 10px 10px 5px;
+  }
+
+  .article-container {
+   
+
+
+    .credit-picture {
+      font-size: 12px;
+      color: var(--brand-firefly);
+      margin-bottom: 10px;
+
+      a {
+        text-decoration: none;
+        color: var(--brand-tuscany);
+      }
+    }
+  }
+
+  .card {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: var(--brand-cararra);
+    padding: 30px 10px;
+    border-radius: 1%;
+
+    .bold-text {
+      font-weight: 600;
+    }
+
+    .discover-image {
+      max-width: 500px;
+      height: auto;
+      border-radius: 1%;
+    }
+
+    .icons-discover {
+      color: var(--brand-tuscany);
+      margin-right: 6px;
+    }
+
+    .location-details {
+      display: flex;
+      flex-wrap: nowrap;
+      margin-bottom: 10px;
+
+    }
+
+  }
 } 
