@@ -37,7 +37,7 @@ h2 {
 header {
   z-index: 100;
   width: 100%;
-  padding: 20px 200px;
+  padding: 40px 130px;
   position: absolute;
 
   .brand {
@@ -111,8 +111,7 @@ main {
     position: relative;
     z-index: 10;
     color: var(--brand-white);
-    
-    margin-top: 50px;
+    margin-top: 250px;
     display: none;
 
     &.active {
@@ -126,23 +125,11 @@ main {
     }
   }
 
-  .button {
-    font-size: 18px;
-    font-weight: 500;
-    background: var(--brand-cararra);
-    color: var(--brand-tuscany);
-    text-decoration: none;
-    padding: 15px 35px;
-    border-radius: 2px;
-    text-align: center;
-  }
-
   .media-icons {
     z-index: 880;
     position: absolute;
     display: flex;
     flex-direction: column;
-    bottom: 200px;
     right: 40px;
     transition: 0.5s ease;
     padding: 10px;
@@ -189,7 +176,6 @@ main {
 
   .navigation-slider {
     z-index: 888;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,6 +306,7 @@ main {
     height: 100vh;
     
     .content {
+      margin-top: 80px;
       
       h2 {
         font-size: 25px;
@@ -332,21 +319,13 @@ main {
     }
 
     .home {
-      padding: 100px 20px;
+      padding: 300px 20px;
       height: 100%;
     }
 
     .media-icons {
       right: 30px;
     }
-  }
-
-  .second-title {
-    color: var(--brand-cararra);
-    text-transform: capitalize;
-    font-weight: 600;
-    margin-top: 150px;
-    padding: 10px 10px 5px;
   }
 
   .article-container {
