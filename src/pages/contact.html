@@ -20,25 +20,27 @@
         <div class="menu-toggle"></div>
         <div class="navigation-list">
           <ul class="navigation-items">
-            <li><a href="./travel.html" class="link">Accueil</a></li>
-            <li><a href="./discover.html" class="link">Explorer</a></li>
-            <li><a href="./galery.html" class="link">Galerie</a></li>
-            <li><a href="./about.html" class="link">À propos</a></li>
-          <li><a href="contact.html" class="link">Contact</a></li>
+            <li class="navigation_element"><a href="./travel.html" class="link">Accueil</a></li>
+            <li class="navigation_element"><a href="./discover.html" class="link">Explorer</a></li>
+            <li class="navigation_element"><a href="./galery.html" class="link">Galerie</a></li>
+          <li class="navigation_element"><a href="contact.html" aria-current="page" class="link">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
 <body>
   <main role="main">
-    <h2 class="title-contact">Contactez-nous !</h2>
-    <form class="form-container" action="/formulaire-travel.html" method="post">
+    <p class="request_message">
+      Votre message a été envoyé avec succès.
+    </p>
+    <form class="form-container" action="formulaire-travel.php" method="post">
+      <h2 class="title-contact">Contactez-nous !</h2>
       <div>
-          <label for="name">Nom *</label>
+          <label for="name">Nom</label>
           <input type="text" id="name" name="user_name" placeholder="Jean Dubois">
       </div>
       <div>
-          <label for="mail">e-mail *</label>
+          <label for="mail">e-mail</label>
           <input type="email" id="mail" name="user_mail" placeholder="exemple@domaine.fr">
       </div>
       <div>
@@ -46,10 +48,10 @@
         <textarea class="subject-container" id="subject" name="user_subject"></textarea>
     </div>
       <div>
-          <label for="msg">Message *</label>
+          <label for="msg">Message</label>
           <textarea class="message-container" id="msg" name="user_message"></textarea>
       </div>
-      <button aria-label="Envoyer" type="submit" class="btn-submit">
+      <button aria-label="Envoyer" name="send" type="submit" class="btn-submit">
         Envoyer
       </button>
   </form>
