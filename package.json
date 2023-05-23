@@ -1,0 +1,28 @@
+{
+  "name": "devproject",
+  "version": "1.0.0",
+  "description": "Start portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/pages/*.html --open",
+    "build": "parcel build src/pages/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-khadija/devProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b-khadija/devProject/issues"
+  },
+  "homepage": "https://github.com/b-khadija/devProject#readme",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0"
+  }
+}
