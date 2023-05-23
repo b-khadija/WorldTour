@@ -1,7 +1,7 @@
 {
-  "name": "devproject",
+  "name": "travel-project",
   "version": "1.0.0",
-  "description": "Start portfolio",
+  "description": "Destination discovery website",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/pages/*.html --open",
