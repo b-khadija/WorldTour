@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/b-khadija/devProject#readme",
   "dependencies": {
+    "node-sass": "^9.0.0",
     "parcel": "^2.7.0"
   },
   "devDependencies": {
