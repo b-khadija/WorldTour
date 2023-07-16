@@ -2,11 +2,9 @@
   "name": "travel-project",
   "version": "1.0.0",
   "description": "Destination discovery website",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/pages/*.html --open",
-    "build": "parcel build src/pages/*.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/pages/*.html --target"
   },
   "repository": {
     "type": "git",
@@ -21,7 +19,8 @@
   "homepage": "https://github.com/b-khadija/devProject#readme",
   "dependencies": {
     "node-sass": "^9.0.0",
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "sass": "^1.63.6"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0"
