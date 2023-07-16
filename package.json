@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Destination discovery website",
   "scripts": {
-    "dev": "parcel src/pages/*.html --open",
-    "build": "parcel build src/pages/*.html --target"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --target browser --public-url ./"
   },
   "repository": {
     "type": "git",
