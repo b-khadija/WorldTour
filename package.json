@@ -4,7 +4,8 @@
   "description": "Destination discovery website",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html -d build --no-minify --target browser --public-url ./"
+    "build": "parcel build src/index.html build:css -d build --no-minify --target browser --public-url ./",
+    "build:css": "node-sass src/scss/*.scss > src/scss/*.css"
   },
   "repository": {
     "type": "git",
