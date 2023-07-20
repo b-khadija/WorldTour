@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/b-khadija/devProject#readme",
   "dependencies": {
-    "node-sass": "^9.0.0",
     "parcel": "^2.7.0",
-    "sass": "^1.63.6"
+    "sass": "^1.64.0",
+    "sass-loader": "^13.3.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
