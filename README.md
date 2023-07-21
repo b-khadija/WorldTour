@@ -6,9 +6,7 @@ J'ai voulu créer un site web pour pratiquer mes compétences en HTML, SCSS et J
 Mon idée était de développer un site qui permet aux utilisateurs de découvrir des endroits peu connus. J'ai choisi d'inclure des images attrayantes, des descriptions détaillées et des informations sur les meilleures périodes pour visiter ces lieux.
 
 Pour ce projet, j'ai décidé de me concentrer sur la partie front-end de mon projet. 
-Pour cela, j'ai utilisé Parcel, un outil qui m'a aidé à gérer les dépendances et à structurer mon projet.
-
-Bien que mon site ne propose pas encore de fonctionnalités de réservation, il m'a permis d'explorer et de mettre en pratique mes compétences en HTML, SCSS et JS pour créer une interface attrayante. 
+Pour cela, j'ai utilisé Parcel, un outil qui m'a aidé à gérer les dépendances et à structurer mon projet. 
 </p>
 
 
@@ -29,7 +27,7 @@ $ npm run dev
 
 ## Feature
 
-Ajouter un Back-End pour avoir la possibilité de réserver un billet d'avion ou un hotel par exemple
+Ajouter un Back-End pour avoir la possibilité de réserver un billet d'avion ou un hotel par exemple.
 
 ## Illustrations
 
